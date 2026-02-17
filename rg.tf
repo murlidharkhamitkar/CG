@@ -1,4 +1,4 @@
-tureterraform {
+terraform {
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
@@ -8,7 +8,7 @@ tureterraform {
 }
 
 provider "azurerm" {
-  feature
+  # Configuration options
 }
 
 resource "azurerm_resource_group" "dev-rg" {
